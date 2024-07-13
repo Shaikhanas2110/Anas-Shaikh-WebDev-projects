@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NZ:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(#0ec, black);
+}
+
+.quote-container {
+  width: 50vw;
+  display: block;
+  border: 1px solid black;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20rem black;
+  box-sizing: border-box;
+  background-color: black;
+  color: beige;
+  z-index: 100;
+}
+
+#quote {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  line-height: 1.4;
+  background: linear-gradient(to bottom, white, #0ec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#btn {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #0ec;
+  color: black;
+  transition: 0.5s;
+}
+
+#btn:hover {
+  background-color: black;
+  color: #0ec;
+  border: 1px solid #0ec;
+}
