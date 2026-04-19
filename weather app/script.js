@@ -1,4 +1,4 @@
-const btn = document.getElementById("search-button");
+ const btn = document.getElementById("search-button");
 const display = document.getElementById("weather-info");
 const cache = new Map();
 
@@ -119,7 +119,6 @@ function displayWeather(data, city) {
       `;
   document.getElementById("weather-info").innerHTML = weatherInfo;
 }
-
 function handleError(data) {
   if (data.status === "404") {
     alert("City not found");
