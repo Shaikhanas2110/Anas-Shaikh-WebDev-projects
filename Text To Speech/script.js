@@ -11,7 +11,7 @@ const textArea = document.getElementById("textareaa");
 //     });
 // }
 
-// speechSynthesis.onvoiceschanged = populateVoiceList;
+
 
 // sbt.addEventListener("click" , () => {
 //     const text = document.getElementById('textareaa').value;
