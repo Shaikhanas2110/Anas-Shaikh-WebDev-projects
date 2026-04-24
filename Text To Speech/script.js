@@ -13,7 +13,7 @@ const textArea = document.getElementById("textareaa");
 
 
 
-// sbt.addEventListener("click" , () => {
+
 //     const text = document.getElementById('textareaa').value;
 //     const utterance = new SpeechSynthesisUtterance(text);
 //     const selectedVoiceIndex = voiceSelect.value;
