@@ -5,7 +5,7 @@ const textArea = document.getElementById("textareaa");
 //     const voices = speechSynthesis.getVoices();
 //     voices.forEach((voice, index) => {
 //         const option = document.createElement('option');
-//         option.textContent = `${voice.name} (${voice.lang})`;
+
 //         option.value = index;
 //         voiceSelect.appendChild(option);
 //     });
