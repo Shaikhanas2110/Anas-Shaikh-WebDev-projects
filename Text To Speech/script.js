@@ -3,7 +3,7 @@ const voiceSelect = document.getElementById("voice");
 const textArea = document.getElementById("textareaa");
 // function populateVoiceList() {
 //     const voices = speechSynthesis.getVoices();
-//     voices.forEach((voice, index) => {
+
 //         const option = document.createElement('option');
 
 //         option.value = index;
