@@ -6,8 +6,8 @@ const textArea = document.getElementById("textareaa");
 
 //         const option = document.createElement('option');
 
-//         option.value = index;
-//         voiceSelect.appendChild(option);
+
+
 //     });
 // }
 
