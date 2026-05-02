@@ -2,7 +2,7 @@ const sbt = document.getElementById("btn");
 const voiceSelect = document.getElementById("voice");
 const textArea = document.getElementById("textareaa");
 // function populateVoiceList() {
-//     const voices = speechSynthesis.getVoices();
+
 
 
 
