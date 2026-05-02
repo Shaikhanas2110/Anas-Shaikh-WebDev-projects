@@ -4,7 +4,7 @@ const textArea = document.getElementById("textareaa");
 // function populateVoiceList() {
 //     const voices = speechSynthesis.getVoices();
 
-//         const option = document.createElement('option');
+
 
 
 
