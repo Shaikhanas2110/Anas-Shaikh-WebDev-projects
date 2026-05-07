@@ -18,7 +18,7 @@ const textArea = document.getElementById("textareaa");
 
 
 
-//     utterance.voice = voices[selectedVoiceIndex];
+
 
 function voiceList() {
   const voices = speechSynthesis.getVoices();
