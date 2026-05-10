@@ -13,8 +13,6 @@ const textArea = document.getElementById("textareaa");
 
 
 
-
-
 function voiceList() {
   const voices = speechSynthesis.getVoices();
 
