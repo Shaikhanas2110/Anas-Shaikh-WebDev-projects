@@ -12,7 +12,7 @@ function voiceList() {
     voiceSelect.appendChild(option);
   });
 }
-
+ 
 speechSynthesis.onvoiceschanged = voiceList;
 
 sbt.addEventListener("click", () => {
