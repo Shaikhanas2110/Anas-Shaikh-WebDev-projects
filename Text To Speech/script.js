@@ -11,7 +11,7 @@ function voiceList() {
     option.value = index;
     voiceSelect.appendChild(option);
   });
-} 
+}  
  
 speechSynthesis.onvoiceschanged = voiceList;
 
