@@ -4,7 +4,6 @@ const textArea = document.getElementById("textareaa");
 
 function voiceList() {
   const voices = speechSynthesis.getVoices();
-
   voices.forEach((voice, index) => {
     const option = document.createElement("option");
     option.textContent = `(${voice.lang} , ${voice.name})`;
