@@ -12,6 +12,7 @@ function voiceList() {
   });
 }  
  
+
 speechSynthesis.onvoiceschanged = voiceList;
 
 sbt.addEventListener("click", () => {
