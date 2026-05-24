@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded',() => {
             const quote = data[0];
             display.textContent = `"${quote.quote}" - ${quote.author}`;      
     }
-
     btn.addEventListener("click",getQuote);
     document.addEventListener("keydown",() => {
         if(key == "Enter") {
