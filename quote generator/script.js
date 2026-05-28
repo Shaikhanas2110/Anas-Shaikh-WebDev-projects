@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded',() => {
             const response = await fetch('https://api.api-ninjas.com/v1/quotes', {
                 headers: { 'X-Api-Key': apikey }
             });
-
+ 
             const data = await response.json();
             const quote = data[0];
             display.textContent = `"${quote.quote}" - ${quote.author}`;      
