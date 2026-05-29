@@ -11,7 +11,7 @@
             navbar.classList.remove('active');
         });
     });
- 
+  
     const updateActiveLinkOnScroll = () => {
         let scrollY = window.scrollY;
 
