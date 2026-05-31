@@ -16,6 +16,7 @@ function voiceList() {
 
 speechSynthesis.onvoiceschanged = voiceList;
 
+
 sbt.addEventListener("click", () => {
   const text = textArea.value;
   const utterance = new SpeechSynthesisUtterance(text);
