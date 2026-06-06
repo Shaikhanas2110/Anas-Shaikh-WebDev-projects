@@ -1,4 +1,4 @@
- const btn = document.getElementById("search-button");
+const btn = document.getElementById("search-button");
 const display = document.getElementById("weather-info");
 const cache = new Map();
 
