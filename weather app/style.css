@@ -6,7 +6,7 @@ body {
   align-items: center;
   margin: 0;
   position: relative;
-  height: 100vh;
+  height: 101vh;
   background: url("bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
