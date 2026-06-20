@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded',() => {
                 headers: { 'X-Api-Key': apikey }
             });
  
+
+
             const data = await response.json();
             const quote = data[0];
             display.textContent = `"${quote.quote}" - ${quote.author}`;      
