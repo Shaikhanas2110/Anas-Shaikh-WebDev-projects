@@ -2,6 +2,7 @@ const btn = document.getElementById("search-button");
 const display = document.getElementById("weather-info");
 const cache = new Map();
 
+
 btn.addEventListener("click", () => {
   const city = document.getElementById("city-input").value.trim();
   if (city) {
