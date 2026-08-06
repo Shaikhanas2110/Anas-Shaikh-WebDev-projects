@@ -42,7 +42,7 @@ h1 {
 #voice {
     background-color: azure;
     color: black;
-    font-size: 1rem;
+    font-size: 1.5rem;
     cursor: pointer;
     transition: 0.5s; 
     height: 50px;
