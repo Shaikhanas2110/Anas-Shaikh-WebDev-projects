@@ -30,4 +30,5 @@ sbt.addEventListener("click", () => {
 
   utterance.voice = voices[selectedVoiceIndex];
   speechSynthesis.speak(utterance);
+  
 });
